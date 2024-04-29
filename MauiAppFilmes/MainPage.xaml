@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppFilmes.MainPage">
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+            <GradientStop Color="Black" Offset="0.3"/>
+            <GradientStop Color="Black" Offset="1.1"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="Red"/>
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="FontSize" Value="20"/>
+          
+        </Style>
+
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <Grid RowDefinitions="*,*,*,*,*,*" ColumnDefinitions="*,*"
+              VerticalOptions="FillAndExpand" Padding="5">
+            <Button x:Name="btn00" Grid.Row="0" Grid.Column="0" Text="Aventura"/>
+            <Button x:Name="btn10" Grid.Row="1" Grid.Column="0" Text="Drama"/>
+            <Button x:Name="btn20" Grid.Row="2" Grid.Column="0" Text="Ficção Científica"/>
+            <Button x:Name="btn30" Grid.Row="3" Grid.Column="0" Text="Infatil"/>
+            <Button x:Name="btn40" Grid.Row="4" Grid.Column="0" Text="Documentário"/>
+            <Button x:Name="btn50" Grid.Row="5" Grid.Column="0" Text="Nacional"/>
+
+            <Button x:Name="btn01" Grid.Row="0" Grid.Column="1" Text="Comedia"/>
+            <Button x:Name="btn11" Grid.Row="1" Grid.Column="1" Text="Terror"/>
+            <Button x:Name="btn21" Grid.Row="2" Grid.Column="1" Text="Suspense"/>
+            <Button x:Name="btn31" Grid.Row="3" Grid.Column="1" Text="Animação"/>
+            <Button x:Name="btn41" Grid.Row="4" Grid.Column="1" Text="Guerra"/>
+            <Button x:Name="btn51" Grid.Row="5" Grid.Column="1" Text="Romance"/>
+            
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
