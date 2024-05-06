@@ -17,19 +17,19 @@
     <ScrollView>
         <Grid RowDefinitions="*,*,*,*,*,*" ColumnDefinitions="*,*"
               VerticalOptions="FillAndExpand" Padding="5">
-            <Button x:Name="btn00" Grid.Row="0" Grid.Column="0" Text="Aventura"/>
-            <Button x:Name="btn10" Grid.Row="1" Grid.Column="0" Text="Drama"/>
-            <Button x:Name="btn20" Grid.Row="2" Grid.Column="0" Text="Ficção Científica"/>
-            <Button x:Name="btn30" Grid.Row="3" Grid.Column="0" Text="Infatil"/>
-            <Button x:Name="btn40" Grid.Row="4" Grid.Column="0" Text="Documentário"/>
-            <Button x:Name="btn50" Grid.Row="5" Grid.Column="0" Text="Nacional"/>
+            <Button x:Name="Aventura" Grid.Row="0" Grid.Column="0" Text="Aventura" Clicked="Aventura_Clicked"/>
+            <Button x:Name="Drama" Grid.Row="1" Grid.Column="0" Text="Drama" Clicked="Drama_Clicked"/>
+            <Button x:Name="Ficcao" Grid.Row="2" Grid.Column="0" Text="Ficção Científica" Clicked="Ficcao_Clicked"/>
+            <Button x:Name="Infantil" Grid.Row="3" Grid.Column="0" Text="Infatil" Clicked="Infantil_Clicked"/> 
+            <Button x:Name="Documentario" Grid.Row="4" Grid.Column="0" Text="Documentário" Clicked="Documentario_Clicked"/>
+            <Button x:Name="Nacional" Grid.Row="5" Grid.Column="0" Text="Nacional" Clicked="Nacional_Clicked"/>
 
-            <Button x:Name="btn01" Grid.Row="0" Grid.Column="1" Text="Comedia"/>
-            <Button x:Name="btn11" Grid.Row="1" Grid.Column="1" Text="Terror"/>
-            <Button x:Name="btn21" Grid.Row="2" Grid.Column="1" Text="Suspense"/>
-            <Button x:Name="btn31" Grid.Row="3" Grid.Column="1" Text="Animação"/>
-            <Button x:Name="btn41" Grid.Row="4" Grid.Column="1" Text="Guerra"/>
-            <Button x:Name="btn51" Grid.Row="5" Grid.Column="1" Text="Romance"/>
+            <Button x:Name="Comedia" Grid.Row="0" Grid.Column="1" Text="Comedia" Clicked="Comedia_Clicked"/>
+            <Button x:Name="Terror" Grid.Row="1" Grid.Column="1" Text="Terror" Clicked="Terror_Clicked"/>
+            <Button x:Name="Suspense" Grid.Row="2" Grid.Column="1" Text="Suspense" Clicked="Suspense_Clicked"/>
+            <Button x:Name="Animacao" Grid.Row="3" Grid.Column="1" Text="Animação" Clicked="Animacao_Clicked"/>
+            <Button x:Name="Guerra" Grid.Row="4" Grid.Column="1" Text="Guerra" Clicked="Guerra_Clicked"/>
+            <Button x:Name="Romance" Grid.Row="5" Grid.Column="1" Text="Romance"  Clicked="Romance_Clicked"/>
             
         </Grid>
     </ScrollView>

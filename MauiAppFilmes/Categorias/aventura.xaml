@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppFilmes.Categorias.aventura"
+             Title="aventura"
+             Background="Black">
+    <VerticalStackLayout>
+        <ScrollView>
+            <Grid RowDefinitions="400,400,400"  ColumnDefinitions="*,*" Padding="5">
+                <ImageButton Source="carros.jpg" Aspect="AspectFit" Grid.Column="0" Grid.Row="0"/>
+            </Grid>
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>
