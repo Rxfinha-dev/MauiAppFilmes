@@ -5,9 +5,13 @@
              Title="Comedia"
              Background="Black">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <ScrollView>
+            <Grid RowDefinitions="300,300,300"  ColumnDefinitions="*,*" Padding="5">
+                <ImageButton Source="casamentogrego.jpg" x:Name="casamento" Aspect="AspectFill"  Grid.Column="0" Grid.Row="0"/>
+                <ImageButton Source="devoltaaofuturo.jpg" x:Name="devolta" Aspect="AspectFill" Grid.Column="0" Grid.Row="1"/>
+                <ImageButton Source="kungfupanda.jpg" x:Name="kungfu" Aspect="AspectFill" Grid.Column="1" Grid.Row="0"/>
+                <ImageButton Source="madagascar.jpg" x:Name="madagascar" Aspect="AspectFill" Grid.Column="1" Grid.Row="1"/>
+            </Grid>
+        </ScrollView>
     </VerticalStackLayout>
 </ContentPage>

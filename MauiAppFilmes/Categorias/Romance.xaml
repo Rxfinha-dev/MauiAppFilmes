@@ -5,9 +5,13 @@
              Title="Romance"
              Background="Black">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <ScrollView>
+            <Grid RowDefinitions="300,300,300"  ColumnDefinitions="*,*" Padding="5">
+                <ImageButton Source="aprova.jpg" x:Name="aprova" Aspect="AspectFill"  Grid.Column="0" Grid.Row="0"/>
+                <ImageButton Source="conti.jpg" x:Name="continencia" Aspect="AspectFill" Grid.Column="0" Grid.Row="1"/>
+                <ImageButton Source="crepusculo.jpg" x:Name="crepusculo" Aspect="AspectFill" Grid.Column="1" Grid.Row="0"/>
+                <ImageButton Source="titanic.jpg" x:Name="titanic" Aspect="AspectFill" Grid.Column="1" Grid.Row="1"/>
+            </Grid>
+        </ScrollView>
     </VerticalStackLayout>
 </ContentPage>

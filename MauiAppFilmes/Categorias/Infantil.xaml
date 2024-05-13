@@ -5,9 +5,13 @@
              Title="Infantil"
              Background="Black">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <ScrollView>
+            <Grid RowDefinitions="300,300,300"  ColumnDefinitions="*,*" Padding="5">
+                <ImageButton Source="meumalvadofavorito.jpg" x:Name="malvadofavorito" Aspect="AspectFill"  Grid.Column="0" Grid.Row="0"/>
+                <ImageButton Source="minions.jpg" x:Name="minions" Aspect="AspectFill" Grid.Column="0" Grid.Row="1"/>
+                <ImageButton Source="nemqueavacatussa.jpg" x:Name="vacatussa" Aspect="AspectFill" Grid.Column="1" Grid.Row="0"/>
+                <ImageButton Source="procurandonemo.jpg" x:Name="nemo" Aspect="AspectFill" Grid.Column="1" Grid.Row="1"/>
+            </Grid>
+        </ScrollView>
     </VerticalStackLayout>
 </ContentPage>
