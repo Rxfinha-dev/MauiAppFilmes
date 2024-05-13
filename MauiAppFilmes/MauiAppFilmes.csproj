@@ -260,7 +260,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Resources\Images\romance\" />
+	  <Folder Include="Resources\Images\suspense\" />
 	</ItemGroup>
 
 </Project>
