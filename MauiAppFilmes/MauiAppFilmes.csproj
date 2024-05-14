@@ -58,11 +58,18 @@
 
 	<ItemGroup>
 	  <AndroidResource Remove="Posters\**" />
+	  <AndroidResource Remove="Resources\Images\suspense\**" />
 	  <Compile Remove="Posters\**" />
+	  <Compile Remove="Resources\Images\suspense\**" />
 	  <EmbeddedResource Remove="Posters\**" />
+	  <EmbeddedResource Remove="Resources\Images\suspense\**" />
 	  <MauiCss Remove="Posters\**" />
+	  <MauiCss Remove="Resources\Images\suspense\**" />
+	  <MauiImage Remove="Resources\Images\suspense\**" />
 	  <MauiXaml Remove="Posters\**" />
+	  <MauiXaml Remove="Resources\Images\suspense\**" />
 	  <None Remove="Posters\**" />
+	  <None Remove="Resources\Images\suspense\**" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -257,10 +264,6 @@
 	  <MauiXaml Update="Filmes\Vingadores.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Resources\Images\suspense\" />
 	</ItemGroup>
 
 </Project>

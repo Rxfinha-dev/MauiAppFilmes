@@ -9,7 +9,7 @@
             <Grid RowDefinitions="300,300,300"  ColumnDefinitions="*,*" Padding="5">
                 <ImageButton Source="cavalodeguerra.jpg" x:Name="warhorse" Aspect="AspectFill"  Grid.Column="0" Grid.Row="0"/>
                 <ImageButton Source="dezenovedezessete.jpg" x:Name="dezenovedezessete" Aspect="AspectFill" Grid.Column="0" Grid.Row="1"/>
-                <ImageButton Source="nadadenovonofront.jpg" x:Name="nadadenovo" Aspect="AspectFill" Grid.Column="1" Grid.Row="0"/>
+                <ImageButton Source="nadanovonofront.jpg" x:Name="nadadenovo" Aspect="AspectFill" Grid.Column="1" Grid.Row="0"/>
                 <ImageButton Source="trezentos.jpg" x:Name="trezentos" Aspect="AspectFill" Grid.Column="1" Grid.Row="1"/>
             </Grid>
         </ScrollView>

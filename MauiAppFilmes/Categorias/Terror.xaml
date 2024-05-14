@@ -5,11 +5,14 @@
              Title="Terror"
              Background="Black">
     <VerticalStackLayout>
-        
-            <ImageButton Source="annabaele.jpg"  x:Name="btnAnnabele"/>
-            <ImageButton Source="exorcista.jpg"  x:Name="btnExorcista"/>
-            <ImageButton Source="invocação.jpg"  x:Name="btnInvocacao"/>
-            <ImageButton Source="pooh.jpg"  x:Name="btnPooh"/>
-        
+
+        <ScrollView>
+            <Grid RowDefinitions="300,300,300"  ColumnDefinitions="*,*" Padding="5">
+                <ImageButton Source="annabaele.jpg" x:Name="annabelle" Aspect="AspectFill"  Grid.Column="0" Grid.Row="0"/>
+                <ImageButton Source="pooh.jpg" x:Name="pooh" Aspect="AspectFill" Grid.Column="0" Grid.Row="1"/>
+                <ImageButton Source="invocacao.jpg" x:Name="invocacao" Aspect="AspectFill" Grid.Column="1" Grid.Row="0"/>
+                <ImageButton Source="exorcista.jpg" x:Name="exorcista" Aspect="AspectFill" Grid.Column="1" Grid.Row="1"/>
+            </Grid>
+        </ScrollView>
     </VerticalStackLayout>
 </ContentPage>
