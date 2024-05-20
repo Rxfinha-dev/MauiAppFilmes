@@ -7,10 +7,10 @@
     <VerticalStackLayout>
         <ScrollView>
             <Grid RowDefinitions="300,300,300"  ColumnDefinitions="*,*" Padding="5" >
-                <ImageButton Source="carros.jpg" x:Name="carros"  Grid.Column="0" Grid.Row="0" Clicked="carros_Clicked"/>
-                <ImageButton Source="lightyear.jpg" x:Name="lightyear"  Grid.Column="0" Grid.Row="1" Clicked="lightyear_Clicked"/>
-                <ImageButton Source="agua.jpg" x:Name="agua" Grid.Column="1" Grid.Row="0" Clicked="agua_Clicked"/>
-                <ImageButton Source="toy_Story.jpg" x:Name="toy_story" Grid.Column="1" Grid.Row="1" Clicked="toy_story_Clicked"/>
+                <ImageButton Source="carros.jpg" x:Name="carros" Aspect="AspectFill"  Grid.Column="0" Grid.Row="0" Clicked="carros_Clicked"/>
+                <ImageButton Source="lightyear.jpg" x:Name="lightyear" Aspect="AspectFill"   Grid.Column="0" Grid.Row="1" Clicked="lightyear_Clicked"/>
+                <ImageButton Source="agua.jpg" x:Name="agua" Grid.Column="1" Aspect="AspectFill"  Grid.Row="0" Clicked="agua_Clicked"/>
+                <ImageButton Source="toy_Story.jpg" x:Name="toy_story" Aspect="AspectFill"  Grid.Column="1" Grid.Row="1" Clicked="toy_story_Clicked"/>
             </Grid>
         </ScrollView>
     </VerticalStackLayout>

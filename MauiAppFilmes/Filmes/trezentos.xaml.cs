@@ -1,8 +1,8 @@
 namespace MauiAppFilmes.Filmes;
 
-public partial class _1964 : ContentPage
+public partial class trezentos : ContentPage
 {
-	public _1964()
+	public trezentos()
 	{
 		InitializeComponent();
 	}
