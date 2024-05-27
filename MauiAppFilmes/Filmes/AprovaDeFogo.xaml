@@ -2,33 +2,34 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppFilmes.Filmes.AprovaDeFogo"
-             Title="AprovaDeFogo">
+             Title="AprovaDeFogo"
+             Background="Black">
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-            Source="https://www.youtube.com/embed/W_H7_tDHFE8?si=i-HJbcfr6_tzdNzt"/>
+            Source="https://www.youtube.com/embed/KRFEKRT0fcc?si=iVI_bUdprN4BZbQt"/>
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
-                <Image Grid.Column="0" Grid.Row="0" Source="carros.jpg"
+                <Image Grid.Column="0" Grid.Row="0" Source="aprova.jpg"
                        x:Name="poster" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand" 
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento"
                                Style="{StaticResource titulo}" />
 
-                    <Label Text="9 de junho de 2006"
+                    <Label Text="26 de setembro de 2008 "
                                Style="{StaticResource textoTitulo}" />
 
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" />
-                    <Label Text="John Lasseter" Style="{StaticResource textoTitulo}" />
+                    <Label Text="Alex Kendrick" Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
 
                     <Label Text="Sinopse" Style="{StaticResource titulo}" />
 
-                    <Label x:Name="sinopse" Text="Ao viajar para a Califórnia, o famoso carro de corridas Relâmpago McQueen se perde e vai parar em Radiator Springs, uma cidadezinha na Rota 66. Ele conhece novos amigos e aprende lições que mudam sua forma de encarar a vida."
+                    <Label x:Name="sinopse" Text="No trabalho, o bombeiro Caleb Holt é um profissional que cumpre com todos os princípios, sendo um deles nunca deixar um companheiro para trás em uma situação de perigo. Em sua casa, ao lado da esposa Catherine, as coisas são bem diferentes. Caleb é um marido ausente. Depois de sete anos de união, o relacionamento está chegando ao fim. O pai de Caleb pede então que ele inicie uma experiência de 40 dias denominada 'O Desafio do Amor', na tentativa de salvar o casamento."
                         TextColor="White" FontSize="Small" Padding="5" />
 
                 </StackLayout>

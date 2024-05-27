@@ -2,33 +2,34 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppFilmes.Filmes.Annabele"
-             Title="Annabele">
+             Title="Annabele"
+             Background="Black">
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-            Source="https://www.youtube.com/embed/W_H7_tDHFE8?si=i-HJbcfr6_tzdNzt"/>
+            Source="https://www.youtube.com/embed/jAw1nwD_BJo?si=LqKfrcXux4D8Egw_"/>
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
-                <Image Grid.Column="0" Grid.Row="0" Source="carros.jpg"
+                <Image Grid.Column="0" Grid.Row="0" Source="annabaele.jpg"
                        x:Name="poster" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand" 
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento"
                                Style="{StaticResource titulo}" />
 
-                    <Label Text="9 de junho de 2006"
+                    <Label Text="9 de outubro de 2014"
                                Style="{StaticResource textoTitulo}" />
 
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" />
-                    <Label Text="John Lasseter" Style="{StaticResource textoTitulo}" />
+                    <Label Text="John R. Leonetti" Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
 
                     <Label Text="Sinopse" Style="{StaticResource titulo}" />
 
-                    <Label x:Name="sinopse" Text="Ao viajar para a Califórnia, o famoso carro de corridas Relâmpago McQueen se perde e vai parar em Radiator Springs, uma cidadezinha na Rota 66. Ele conhece novos amigos e aprende lições que mudam sua forma de encarar a vida."
+                    <Label x:Name="sinopse" Text="John Form acha que encontrou o presente ideal para sua esposa grávida, uma boneca vintage. No entanto, a alegria do casal não dura muito. Uma noite terrível, membros de uma seita satânica invadem a casa do casal em um ataque violento. Ao tentarem invocar um demônio, eles mancham a boneca de sangue, tornando-a receptora de uma entidade do mal."
                         TextColor="White" FontSize="Small" Padding="5" />
 
                 </StackLayout>
