@@ -7,29 +7,29 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-            Source="https://www.youtube.com/embed/W_H7_tDHFE8?si=i-HJbcfr6_tzdNzt"/>
+            Source="https://www.youtube.com/embed/P1BGgqhVGAI?si=YsXlGVKf4ldyh5H5"/>
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
-                <Image Grid.Column="0" Grid.Row="0" Source="carros.jpg"
+                <Image Grid.Column="0" Grid.Row="0" Source="harrypotter.jpg"
                        x:Name="poster" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand" 
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento"
                                Style="{StaticResource titulo}" />
 
-                    <Label Text="9 de junho de 2006"
+                    <Label Text="23 de novembro de 2001"
                                Style="{StaticResource textoTitulo}" />
 
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" />
-                    <Label Text="John Lasseter" Style="{StaticResource textoTitulo}" />
+                    <Label Text="Chris Columbus" Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
 
                     <Label Text="Sinopse" Style="{StaticResource titulo}" />
 
-                    <Label x:Name="sinopse" Text="Ao viajar para a Califórnia, o famoso carro de corridas Relâmpago McQueen se perde e vai parar em Radiator Springs, uma cidadezinha na Rota 66. Ele conhece novos amigos e aprende lições que mudam sua forma de encarar a vida."
+                    <Label x:Name="sinopse" Text="Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente, Harry é impedido de ler a carta por seu tio, mas logo recebe a visita de Hagrid, o guarda-caça de Hogwarts, que chega para levá-lo até a escola. Harry adentra um mundo mágico que jamais imaginara, vivendo diversas aventuras com seus novos amigos, Rony Weasley e Hermione Granger."
                         TextColor="White" FontSize="Small" Padding="5" />
 
                 </StackLayout>

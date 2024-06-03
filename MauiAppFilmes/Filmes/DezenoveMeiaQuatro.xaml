@@ -7,29 +7,29 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-            Source="https://www.youtube.com/embed/W_H7_tDHFE8?si=i-HJbcfr6_tzdNzt"/>
+            Source="https://www.youtube.com/embed/2IIfJktM85o?si=IucJSQUCYPNxawPh"/>
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
-                <Image Grid.Column="0" Grid.Row="0" Source="carros.jpg"
+                <Image Grid.Column="0" Grid.Row="0" Source="milnovecentos.jpg"
                        x:Name="poster" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand" 
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento"
                                Style="{StaticResource titulo}" />
 
-                    <Label Text="9 de junho de 2006"
+                    <Label Text="31 de março de 2019"
                                Style="{StaticResource textoTitulo}" />
 
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" />
-                    <Label Text="John Lasseter" Style="{StaticResource textoTitulo}" />
+                    <Label Text="Filipe Valerim, Lucas Ferrugem e Henrique Viana" Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
 
                     <Label Text="Sinopse" Style="{StaticResource titulo}" />
 
-                    <Label x:Name="sinopse" Text="Ao viajar para a Califórnia, o famoso carro de corridas Relâmpago McQueen se perde e vai parar em Radiator Springs, uma cidadezinha na Rota 66. Ele conhece novos amigos e aprende lições que mudam sua forma de encarar a vida."
+                    <Label x:Name="sinopse" Text="Segundo a Brasil Paralelo, o filme apresenta uma perspectiva diferente sobre a ditadura militar brasileira, que ocorreu entre 1964 e 1985, com a alegada promessa de revelar uma verdade, até então, escondida. Notavelmente, o filme defende a existência de uma ameaça comunista no Brasil. Nele, aparecem sociólogos, historiadores e jornalistas.[1] Estão presentes Olavo de Carvalho, William Waack, Luiz Felipe Pondé e outros.[2] O subtítulo O Brasil Entre Armas e Livros remete à ideia de que a ditadura militar teria vencido a disputa no território das armas, mas teria perdido a guerra cultural, avançando com a teoria do marxismo cultural."
                         TextColor="White" FontSize="Small" Padding="5" />
 
                 </StackLayout>
