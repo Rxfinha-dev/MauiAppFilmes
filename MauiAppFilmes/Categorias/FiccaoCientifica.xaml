@@ -4,13 +4,14 @@
              x:Class="MauiAppFilmes.Categorias.FiccaoCientifica"
              Title="FiccaoCientifica"
              Background="Black">
+    
     <VerticalStackLayout>
         <ScrollView>
             <Grid RowDefinitions="300,300,300"  ColumnDefinitions="*,*" Padding="5">
-                <ImageButton Source="guardioesdagalaxiavol2.jpg" x:Name="guardioes" Aspect="AspectFill"  Grid.Column="0" Grid.Row="0"/>
-                <ImageButton Source="logan.jpg" x:Name="logan" Aspect="AspectFill" Grid.Column="0" Grid.Row="1"/>
-                <ImageButton Source="theflash.jpg" x:Name="theflash" Aspect="AspectFill" Grid.Column="1" Grid.Row="0"/>
-                <ImageButton Source="vingadores.jpg" x:Name="vingadores" Aspect="AspectFill" Grid.Column="1" Grid.Row="1"/>
+                <ImageButton Source="guardioesdagalaxiavol2.jpg" x:Name="guardioes" Aspect="AspectFill"  Grid.Column="0" Grid.Row="0" Clicked="guardioes_Clicked"/>
+                <ImageButton Source="logan.jpg" x:Name="logan" Aspect="AspectFill" Grid.Column="0" Grid.Row="1" Clicked="logan_Clicked"/>
+                <ImageButton Source="theflash.jpg" x:Name="theflash" Aspect="AspectFill" Grid.Column="1" Grid.Row="0" Clicked="theflash_Clicked"/>
+                <ImageButton Source="vingadores.jpg" x:Name="vingadores" Aspect="AspectFill" Grid.Column="1" Grid.Row="1" Clicked="vingadores_Clicked"/>
             </Grid>
         </ScrollView>
     </VerticalStackLayout>

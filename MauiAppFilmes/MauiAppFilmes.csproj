@@ -209,7 +209,7 @@
 	  <MauiXaml Update="Filmes\MeuMalvadoFavorito.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Filmes\MinhaMaeEumaPeca.xaml">
+	  <MauiXaml Update="Filmes\MinhaMae.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\Minions.xaml">

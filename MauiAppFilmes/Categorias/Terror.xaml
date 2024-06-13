@@ -8,10 +8,10 @@
 
         <ScrollView>
             <Grid RowDefinitions="300,300,300"  ColumnDefinitions="*,*" Padding="5">
-                <ImageButton Source="annabaele.jpg" x:Name="annabelle" Aspect="AspectFill"  Grid.Column="0" Grid.Row="0"/>
-                <ImageButton Source="pooh.jpg" x:Name="pooh" Aspect="AspectFill" Grid.Column="0" Grid.Row="1"/>
-                <ImageButton Source="invocacao.jpg" x:Name="invocacao" Aspect="AspectFill" Grid.Column="1" Grid.Row="0"/>
-                <ImageButton Source="exorcista.jpg" x:Name="exorcista" Aspect="AspectFill" Grid.Column="1" Grid.Row="1"/>
+                <ImageButton Source="annabaele.jpg" x:Name="annabelle" Aspect="AspectFill"  Grid.Column="0" Grid.Row="0" Clicked="annabelle_Clicked"/>
+                <ImageButton Source="pooh.jpg" x:Name="pooh" Aspect="AspectFill" Grid.Column="0" Grid.Row="1" Clicked="pooh_Clicked"/>
+                <ImageButton Source="invocacao.jpg" x:Name="invocacao" Aspect="AspectFill" Grid.Column="1" Grid.Row="0" Clicked="invocacao_Clicked"/>
+                <ImageButton Source="exorcista.jpg" x:Name="exorcista" Aspect="AspectFill" Grid.Column="1" Grid.Row="1" Clicked="exorcista_Clicked"/>
             </Grid>
         </ScrollView>
     </VerticalStackLayout>
